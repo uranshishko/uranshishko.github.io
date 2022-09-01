@@ -18,7 +18,7 @@
     <span><b>{title}</b></span>
     <span class="tools">
       <Link
-        href=""
+        href="https://github.com/uranshishko/uranshishko.github.io"
         icon="fa-brands fa-github"
         alt="portofolio githup repo"
         size={20}

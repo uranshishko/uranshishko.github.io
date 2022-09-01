@@ -18,7 +18,7 @@
   {:then repos}
     <div class="cards">
       {#each repos as repo}
-        {#if repo.name !== "uranshishko" && repo.name !== "HA_Fetcher"}
+        {#if repo.name !== "uranshishko" && repo.name !== "HA_Fetcher" && repo.name !== "uranshishko.github.io"}
           <Card
             title={repo.name.toUpperCase()}
             cardImage={colors[randomNum()]}

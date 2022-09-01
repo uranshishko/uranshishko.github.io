@@ -81,7 +81,7 @@
     align-items: center;
     justify-content: center;
     background-color: #222222;
-    overflow: hidden;
+    overflow-y: scroll;
   }
 
   .general > div {
@@ -152,33 +152,6 @@
 
     .details_shadow {
       box-shadow: inset 0px 16px 12px -15px #222222;
-    }
-  }
-
-  @keyframes rotate {
-    0% {
-      border: 2px solid transparent;
-      border-top: 2px dashed #54bdb4;
-    }
-
-    25% {
-      border: 2px solid transparent;
-      border-right: 2px dashed #54bdb4;
-    }
-
-    50% {
-      border: 2px solid transparent;
-      border-bottom: 2px dashed #54bdb4;
-    }
-
-    75% {
-      border: 2px solid transparent;
-      border-left: 2px dashed #54bdb4;
-    }
-
-    100% {
-      border: 2px solid transparent;
-      border-top: 2px dashed #54bdb4;
     }
   }
 </style>

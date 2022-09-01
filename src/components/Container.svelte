@@ -27,10 +27,11 @@
 <style>
   .container {
     display: flex;
+    margin-top: 4px;
     justify-content: center;
     align-items: flex-start;
     width: 90%;
-    min-height: 50vh;
+    min-height: 48vh;
     max-height: 80vh;
     height: 100%;
   }
